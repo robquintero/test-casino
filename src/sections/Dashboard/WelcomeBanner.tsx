@@ -115,14 +115,14 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to $RACKIES Casino 🚀</h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          A Miami based Solana Casino, developed by @RLQ.
         </p>
       </div>
       <Buttons>
         <button onClick={copyInvite}>
-          💸 Copy Invite
+          Invite Link
         </button>
         <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
           🚀 Add Liquidity
