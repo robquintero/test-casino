@@ -15,7 +15,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'dice',
     meta: {
-      background: '#70ffdf',
+      background: '#1D96CD',
       name: 'Dice',
       image: '/games/dice.png',
       description: `
@@ -81,7 +81,7 @@ export const GAMES: GameBundle[] = [
       description: `
         Roulette brings the classic wheel-spinning game to life with a digital twist. Bet on where the ball will land and watch as the wheel decides your fate. With straightforward rules and the chance for big wins, Roulette is a timeless game of chance.
       `,
-      background: '#70ffdf',
+      background: '#1D96CD',
     },
     app: React.lazy(() => import('./Roulette')),
   },
