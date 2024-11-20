@@ -117,7 +117,7 @@ export function WelcomeBanner() {
       <div>
         <h1>Welcome to $RACKIES Casino 🚀</h1>
         <p>
-          A Miami based Solana Casino, developed by @RLQ.
+          A Miami based Crypto ($SOL) Casino, developed by @RLQ. Fair, Fun and Private
         </p>
       </div>
       <Buttons>
