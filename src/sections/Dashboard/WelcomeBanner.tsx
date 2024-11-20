@@ -117,7 +117,7 @@ export function WelcomeBanner() {
       <div>
         <h1>Welcome to $RACKIES Casino 🚀</h1>
         <p>
-          A Miami based Crypto Casino, developed by @RLQ. Fair, Fun and Private
+          A Miami based Crypto Casino, developed by @robert. Fair, Fun and Private
         </p>
       </div>
       <Buttons>
@@ -125,10 +125,10 @@ export function WelcomeBanner() {
           Invite Link
         </button>
         <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liquidity
+          Our Token
         </button>
         <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+          Telegram
         </button>
       </Buttons>
     </Welcome>
