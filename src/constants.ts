@@ -97,7 +97,7 @@ export const TOKEN_METADATA_FETCHER = (
     if (import.meta.env.VITE_HELIUS_API_KEY) {
       return makeHeliusTokenFetcher(
         import.meta.env.VITE_HELIUS_API_KEY,
-        { dollarBaseWager: 1 },
+        { dollarBaseWager: 0.01 },
       )
     }
   }
