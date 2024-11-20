@@ -15,7 +15,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'dice',
     meta: {
-      background: '#60efff',
+      background: '#0061ff',
       name: 'Dice',
       image: '/games/dice.png',
       description: `
@@ -81,7 +81,7 @@ export const GAMES: GameBundle[] = [
       description: `
         Roulette brings the classic wheel-spinning game to life with a digital twist. Bet on where the ball will land and watch as the wheel decides your fate. With straightforward rules and the chance for big wins, Roulette is a timeless game of chance.
       `,
-      background: '#60efff',
+      background: '#0061ff',
     },
     app: React.lazy(() => import('./Roulette')),
   },
@@ -93,7 +93,7 @@ export const GAMES: GameBundle[] = [
       name: 'Plinko',
       description: `
         Plinko is played by dropping chips down a pegged board where they randomly fall into slots with varying win amounts. Each drop is a mix of anticipation and strategy, making Plinko an endlessly entertaining game of chance.
-        ⚠️ Under development. Results shown might be incorrect. ⚠️
+        ⚠️ Under development. One Plinko Ball Per Drop Allowed ⚠️
       `,
     },
     app: React.lazy(() => import('./Plinko')),
