@@ -5,13 +5,13 @@ const tickingAnimation = keyframes`
   0%, 50%, 100% {
     transform: scale(1);
     filter: brightness(1);
-    /* background: #764cc4; */
+    /* background: #5168e8; */
     /* box-shadow: 0 0 1px 1px #ffffff00; */
   }
   25% {
     transform: scale(0.95);
     filter: brightness(1.5);
-    /* background: #945ef7; */
+    /* background: #445deb; */
     /* box-shadow: 0 0 1px 1px #ffffff99; */
   }
 `
@@ -112,7 +112,7 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
   position: relative;
   align-items: center;
   justify-content: center;
-  background: #9358ff;
+  background: #5168e8;
   background-size: 100%;
   border: none;
   border-bottom: 5px solid #00000055;
