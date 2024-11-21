@@ -90,7 +90,7 @@ export default function RecentPlays() {
           </Recent>
         ),
       )}
-      <GambaUi.Button main onClick={() => window.open (https://pump.fun/board)>
+      <GambaUi.Button main onClick={() => window.open ("https://pump.fun/board")>
         Live Transactions
       </GambaUi.Button>
     </Container>
