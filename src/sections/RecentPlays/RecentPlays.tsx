@@ -77,7 +77,7 @@ export default function RecentPlays() {
       {selectedGame && (
         <ShareModal event={selectedGame} onClose={() => setSelectedGame(undefined)} />
       )}
-      {!events.length && Array.from({ length: 10 }).map((_, i) => (
+      {!events.length && Array.from({ length: 3 }).map((_, i) => (
         <Skeleton key={i} />
       ))}
       {events.map(
