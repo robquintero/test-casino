@@ -15,7 +15,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'dice',
     meta: {
-      background: '#297aff',
+      background: '#0d86ff',
       name: 'Dice',
       image: '/games/dice.png',
       description: `
@@ -44,7 +44,7 @@ export const GAMES: GameBundle[] = [
         Flip offers a straightforward yet thrilling gamble: choose Heads or Tails and double your money or lose it all. This simple, high-stakes game tests your luck and decision-making with every flip of the coin.
       `,
       image: '/games/flip.png',
-      background: '#297aff',
+      background: '#0d86ff',
     },
     app: React.lazy(() => import('./Flip')),
   },
@@ -69,7 +69,7 @@ export const GAMES: GameBundle[] = [
         There's money hidden beneath the squares. The reward will increase the more squares you reveal, but watch out for the 5 hidden mines. Touch one and you'll go broke. You can cash out at any time.
       `,
       image: '/games/mines.png',
-      background: '#045ded',
+      background: '#0d86ff',
     },
     app: React.lazy(() => import('./Mines')),
   },
@@ -81,14 +81,14 @@ export const GAMES: GameBundle[] = [
       description: `
         Roulette brings the classic wheel-spinning game to life with a digital twist. Bet on where the ball will land and watch as the wheel decides your fate. With straightforward rules and the chance for big wins, Roulette is a timeless game of chance.
       `,
-      background: '#297aff',
+      background: '#045ded',
     },
     app: React.lazy(() => import('./Roulette')),
   },
   {
     id: 'plinko',
     meta: {
-      background: '#045ded',
+      background: '#0d86ff',
       image: '/games/plinko.png',
       name: 'Plinko',
       description: `
@@ -101,7 +101,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'crash',
     meta: {
-      background: '#297aff',
+      background: '#045ded',
       image: '/games/crash.png',
       name: 'Crash',
       description: `
