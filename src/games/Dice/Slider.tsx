@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 `
 
 const Track = styled.div`
-  background: #55f275;
+  background: #0d86ff;
   height: 100%;
   border-radius: 10px 0 0 10px;
 `
