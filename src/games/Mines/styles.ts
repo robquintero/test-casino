@@ -24,7 +24,7 @@ const goldReveal = keyframes`
   }
   75% {
     filter: brightness(2);
-    /* background: #3fff7a; */
+    /* background: #1c1c1c; */
     transform: scale(1.2);
   }
 `
