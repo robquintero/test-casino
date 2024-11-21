@@ -81,7 +81,7 @@ export const GAMES: GameBundle[] = [
       description: `
         Roulette brings the classic wheel-spinning game to life with a digital twist. Bet on where the ball will land and watch as the wheel decides your fate. With straightforward rules and the chance for big wins, Roulette is a timeless game of chance.
       `,
-      background: '#045ded',
+      background: '#C21807',
     },
     app: React.lazy(() => import('./Roulette')),
   },
