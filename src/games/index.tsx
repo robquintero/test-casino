@@ -66,7 +66,7 @@ export const GAMES: GameBundle[] = [
     meta: {
       name: 'Mines',
       description: `
-        There's money hidden beneath the squares. The reward will increase the more squares you reveal, but watch out for the 5 hidden mines. Touch one and you'll go broke. You can cash out at any time.
+        Mow the grass tiles and receive reward! The reward will increase the more tiles you mow, but watch out for the hidden mines 💩. Step on one and you'll go broke. You can cash out at any time.
       `,
       image: '/games/mines.png',
       background: '#0d86ff',
