@@ -58,7 +58,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
     name: 'Wagerly Practice',
-    symbol: '$WAGERLY',
+    symbol: '$WAGE',
     image: '/fakemoney.png',
     baseWager: 1e9,
     decimals: 9,
