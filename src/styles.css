@@ -29,8 +29,6 @@ body, input, button, textarea, pre {
 }
 
 h1, h2 {
-  font-family: 'Noto Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 600;
   margin: 0;
 }
 
