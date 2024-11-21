@@ -117,7 +117,7 @@ export function WelcomeBanner() {
       <div>
         <h1>WELCOME TO WAGERLY.BET 🚀</h1>
         <p>
-          A Miami based Crypto Casino, developed by @robert. Fair, Fun and Private
+          Online Casino, $WAGERLY coin dropping on Pump.fun (NOV 21 2024). In development, weekly updates until we get our live dealer rooms active 🚀
         </p>
       </div>
       <Buttons>
