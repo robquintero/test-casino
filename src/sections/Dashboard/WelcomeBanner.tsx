@@ -115,7 +115,7 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to $RACKIES Casino 🚀</h1>
+        <h1>WELCOME TO WAGERLY.BET 🚀</h1>
         <p>
           A Miami based Crypto Casino, developed by @robert. Fair, Fun and Private
         </p>
