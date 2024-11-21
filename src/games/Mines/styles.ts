@@ -131,6 +131,7 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
   `}
 
   ${(props) => props.status === 'gold' && css`
+    background: #6e320d;
     color: white;
     animation: ${goldReveal} .5s ease;
     opacity: 1;
@@ -145,7 +146,7 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
 
   ${(props) => props.status === 'hidden' && css`
     &:disabled {
-      opacity: .5;
+      opacity: .75;
     }
   `}
 
