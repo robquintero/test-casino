@@ -4,6 +4,6 @@ export { default as SOUND_WIN } from './win.mp3'
 export { default as SOUND_STEP } from './axe.mp3'
 export { default as SOUND_EXPLODE } from './explode.mp3'
 
-export const GRID_SIZE = 25
+export const GRID_SIZE = 28
 export const PITCH_INCREASE_FACTOR = 1.06
 export const MINE_SELECT = [1, 2, 3, 4, 5, 10, 15, 20, 24]
