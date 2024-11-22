@@ -124,11 +124,11 @@ export function WelcomeBanner() {
         <button onClick={copyInvite}>
           Invite Link
         </button>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
+        <button onClick={() => window.open('https://pump.fun/coin/2JLSgSsuuJEUJBe4WT3pakCNSLyrC7zYUYBVGFSVpump', '_blank')}>
           Our Token
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          Telegram
+        <button onClick={() => window.open('https://discord.gg/SqfzsaNR', '_blank')}>
+          Discord
         </button>
       </Buttons>
     </Welcome>
